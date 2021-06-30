@@ -2,7 +2,7 @@ var app = new (function () {
   this.fruits = [];
   this.updateindex = 0;
   this.getFruits = function () {
-    fetch("https://localhost:5001/api/Fruits")
+    fetch("https://dotnetcorerestapi.herokuapp.com/api/Fruits")
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
@@ -40,7 +40,7 @@ var app = new (function () {
   this.save = function () {
     document.getElementById("fname").value;
     alert(document.getElementById("fname").value);
-    fetch("https://localhost:5001/api/Fruits", {
+    fetch("https://dotnetcorerestapi.herokuapp.com/api/Fruits", {
       method: "post",
       headers: {
         Accept: "application/json",
@@ -69,7 +69,7 @@ var app = new (function () {
 
   this.update = function () {
     alert("update called " + this.updateindex);
-    fetch('https://localhost:5001/api/Fruits/'+this.updateindex, {
+    fetch('https://dotnetcorerestapi.herokuapp.com/api/Fruits/'+this.updateindex, {
     method: 'PUT',
     body: JSON.stringify({
         id: this.updateindex,
@@ -92,7 +92,7 @@ var app = new (function () {
   
     this.updateindex = this.fruits[i].id;
     alert("delete called " +this.updateindex);
-    fetch('https://localhost:5001/api/Fruits/'+this.updateindex, {
+    fetch('https://dotnetcorerestapi.herokuapp.com/api/Fruits/'+this.updateindex, {
     // fetch(`${uri}/${id}`, {
       method: 'DELETE'
     })
