@@ -61,7 +61,7 @@ namespace restapidemo
                 app.UseOpenApi();
     app.UseSwaggerUi3();
                 // app.UseSwagger();
-                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "restapidemo v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "restapidemo v1"));
             }
 
             app.UseHttpsRedirection();
