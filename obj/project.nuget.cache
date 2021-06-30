@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IEWp+Tc7BRZ+pv9qLZZjBlj/tihpYeDL39pSBbBw5mTQS9FshNXZZ8Gp73TPI1Dg4U0Igkp6z2mTbW87ag17JQ==",
+  "dgSpecHash": "gO7jWG7SgFe4gIbFSPkpS0g2qV+Z956NdeYaHNjvw97zu9wQtlnEzResXgtOZJLPd3YjzCejKlR/iR8cvmzfCw==",
   "success": true,
   "projectFilePath": "D:\\baranee\\dotnetcore\\restapidemo\\restapidemo.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,8 @@
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\5.0.0\\microsoft.extensions.fileproviders.embedded.5.0.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
@@ -55,7 +57,16 @@
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\namotion.reflection\\1.0.23\\namotion.reflection.1.0.23.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\njsonschema\\10.4.4\\njsonschema.10.4.4.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\njsonschema.yaml\\10.4.4\\njsonschema.yaml.10.4.4.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\nswag.annotations\\13.11.3\\nswag.annotations.13.11.3.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\nswag.aspnetcore\\13.11.3\\nswag.aspnetcore.13.11.3.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\nswag.core\\13.11.3\\nswag.core.13.11.3.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\nswag.core.yaml\\13.11.3\\nswag.core.yaml.13.11.3.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\nswag.generation\\13.11.3\\nswag.generation.13.11.3.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\nswag.generation.aspnetcore\\13.11.3\\nswag.generation.aspnetcore.13.11.3.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
@@ -133,7 +144,8 @@
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\baraneetharan.r\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\baraneetharan.r\\.nuget\\packages\\yamldotnet\\9.1.4\\yamldotnet.9.1.4.nupkg.sha512"
   ],
   "logs": []
 }

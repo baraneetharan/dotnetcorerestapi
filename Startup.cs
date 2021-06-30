@@ -31,10 +31,11 @@ namespace restapidemo
             services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("restapidemo"));
             // services.AddDbContext<TodoContext>(op => op.UseSqlServer(Configuration.GetConnectionString("Database"))); 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "restapidemo", Version = "v1" });
-            });
+            services.AddSwaggerDocument();
+            // services.AddSwaggerGen(c =>
+            // {
+            //     c.SwaggerDoc("v1", new OpenApiInfo { Title = "restapidemo", Version = "v1" });
+            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,8 +58,10 @@ namespace restapidemo
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "restapidemo v1"));
+                app.UseOpenApi();
+    app.UseSwaggerUi3();
+                // app.UseSwagger();
+                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "restapidemo v1"));
             }
 
             app.UseHttpsRedirection();
